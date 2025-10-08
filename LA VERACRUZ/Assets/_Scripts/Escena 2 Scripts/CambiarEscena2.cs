@@ -8,7 +8,7 @@ public class CambiarEscena2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            gameManager.CargarEscena();
+            gameManager.CargarEscena2();
         }
     }
 }
