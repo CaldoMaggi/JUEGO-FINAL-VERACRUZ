@@ -20,12 +20,13 @@ public class PlayerController : MonoBehaviour
     }
     private void FlipCharacter()
     {
-        if(transform.position.x > xPosition)
+        float input = Input.GetAxis("Horizontal");
+        if (input > 0 && (transform.position.x > xPosition))
         {
             //se mueve a la derecha y voltea el sprite
             spriteRenderer.flipX = false;
         }
-        else if(transform.position.x < xPosition)
+        else if(input < 0 && (transform.position.x < xPosition))
         {
             //se mueve a la izquierda y voltea el sprite
             spriteRenderer.flipX = true;

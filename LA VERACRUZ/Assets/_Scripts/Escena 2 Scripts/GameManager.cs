@@ -5,11 +5,6 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
-
-    public void CargarEscena2()
-    {
-        SceneManager.LoadScene(2);
-    }
     public void CargarEscena()
     {
 
