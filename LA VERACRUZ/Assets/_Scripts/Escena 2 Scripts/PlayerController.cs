@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     //Solo moverá el personaje de izquierda a derecha
     [SerializeField] private float speed = 5f;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Animator animator;
     private Vector2 movement;
     private float xPosition;
     void Update()
@@ -17,6 +18,14 @@ public class PlayerController : MonoBehaviour
         float input = Input.GetAxis("Horizontal");
         movement.x = input * speed * Time.deltaTime;
         transform.Translate(movement);
+        if(input != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
     }
     private void FlipCharacter()
     {
