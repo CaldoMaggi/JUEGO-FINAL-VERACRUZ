@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
+    [SerializeField] private GameObject Canvas;
     public void CargarEscena()
     {
 
@@ -23,4 +24,5 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
+
 }
