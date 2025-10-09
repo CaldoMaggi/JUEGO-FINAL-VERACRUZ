@@ -22,12 +22,12 @@ public class PlayerController : MonoBehaviour
     {
         if(transform.position.x > xPosition)
         {
-            //se mueve a la derecha
+            //se mueve a la derecha y voltea el sprite
             spriteRenderer.flipX = false;
         }
         else if(transform.position.x < xPosition)
         {
-            //se mueve a la izquierda
+            //se mueve a la izquierda y voltea el sprite
             spriteRenderer.flipX = true;
         }
         xPosition = transform.position.x;

@@ -24,4 +24,8 @@ public class GameManager : MonoBehaviour
         //cargar la escena
         SceneManager.LoadScene(levelIndex);
     }
+    public void SalirJuego()
+    {
+        Application.Quit();
+    }
 }
