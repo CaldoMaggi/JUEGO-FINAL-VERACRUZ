@@ -14,6 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ESCENA 3.unity
     guid: b740623828b5ec44389f4c69a094883a
+  - enabled: 1
+    path: Assets/Scenes/ESCENA 3(Noche).unity
+    guid: 5fc61daf98a309345a931c186d4efc24
+  - enabled: 1
+    path: Assets/Scenes/IGLESIA (4).unity
+    guid: 39e8a87668aea7348a6fadebe10a491f
+  - enabled: 1
+    path: Assets/Scenes/M_ANTIOQUIA(5).unity
+    guid: 1bd7ca30b5ad87e4989ed37e5d5a58b6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

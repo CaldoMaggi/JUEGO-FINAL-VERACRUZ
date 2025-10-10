@@ -14,7 +14,7 @@ public class TextoPeriodico : MonoBehaviour
     void Update()
     {
         // Detecta si se presionó la tecla E en este frame
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F))
         {
             // Cambia el estado
             isVisible = !isVisible;
