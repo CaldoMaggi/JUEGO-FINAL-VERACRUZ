@@ -22,7 +22,11 @@ public class PlayerController : MonoBehaviour
 
         // 🔹 Detectar si la escena actual permite salto
         string currentScene = SceneManager.GetActiveScene().name;
-        if (currentScene == "IGLESIA (4)" || currentScene == "M_ANTIOQUIA(5)")
+        if (currentScene == "IGLESIA (4)")
+        {
+            canJump = true;
+        }
+        else if (currentScene == "M_ANTIOQUIA(5)")
         {
             canJump = true;
         }
