@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 08588ffb0ea21614bb21d6258f19bf06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2727294136016595061
+    second: brillitos_0
+  - first:
+      213: 8657120180846990095
+    second: brillitos_1
+  - first:
+      213: 332506190609867972
+    second: brillitos_2
+  - first:
+      213: -7110074568060683352
+    second: brillitos_3
+  - first:
+      213: -6516244246294123731
+    second: brillitos_4
+  - first:
+      213: -7792433103112698149
+    second: brillitos_5
+  - first:
+      213: 2788141947680256879
+    second: brillitos_6
+  - first:
+      213: -1239402169710094148
+    second: brillitos_7
+  - first:
+      213: -8934045865883683544
+    second: brillitos_8
+  - first:
+      213: 6612695782902171948
+    second: brillitos_9
+  - first:
+      213: -4470321940438161205
+    second: brillitos_10
+  - first:
+      213: -3226830720454606909
+    second: brillitos_11
+  - first:
+      213: 4820677746285522455
+    second: brillitos_12
+  - first:
+      213: -8699765303732101721
+    second: brillitos_13
+  - first:
+      213: 7845190163040675289
+    second: brillitos_14
+  - first:
+      213: -4159806425768316727
+    second: brillitos_15
+  - first:
+      213: 3770926517571606023
+    second: brillitos_16
+  - first:
+      213: 8617198985759554840
+    second: brillitos_17
+  - first:
+      213: 7549676311873668675
+    second: brillitos_18
+  - first:
+      213: 444339285132598615
+    second: brillitos_19
+  - first:
+      213: 3010788363730308761
+    second: brillitos_20
+  - first:
+      213: 78419355630926894
+    second: brillitos_21
+  - first:
+      213: 5972515973141709568
+    second: brillitos_22
+  - first:
+      213: 6480578940355130203
+    second: brillitos_23
+  - first:
+      213: 2458430977014521434
+    second: brillitos_24
+  - first:
+      213: 227728134975989362
+    second: brillitos_25
+  - first:
+      213: 2217402727478419077
+    second: brillitos_26
+  - first:
+      213: 6081593553647896142
+    second: brillitos_27
+  - first:
+      213: -4203223411931646826
+    second: brillitos_28
+  - first:
+      213: -5074018478406356104
+    second: brillitos_29
+  - first:
+      213: 1154694913849662005
+    second: brillitos_30
+  - first:
+      213: 2842249718790952105
+    second: brillitos_31
+  - first:
+      213: -2256952790038885403
+    second: brillitos_32
+  - first:
+      213: 2350022789433600563
+    second: brillitos_33
+  - first:
+      213: -8135236548084289427
+    second: brillitos_34
+  - first:
+      213: 7046765927256758178
+    second: brillitos_35
+  - first:
+      213: -6072538426616790638
+    second: brillitos_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brillitos_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 489
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8799b0ee64b62ad0800000000000000
+      internalID: -2727294136016595061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 502
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f031045efe4442870800000000000000
+      internalID: 8657120180846990095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 489
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c46be06e9c4d9400800000000000000
+      internalID: 332506190609867972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab3434e9d0f35d90800000000000000
+      internalID: -7110074568060683352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ba4fde166a195a0800000000000000
+      internalID: -6516244246294123731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 489
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd609f8f067bbd390800000000000000
+      internalID: -7792433103112698149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63f8d6445871b620800000000000000
+      internalID: 2788141947680256879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8d4941b42cccee0800000000000000
+      internalID: -1239402169710094148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 489
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825b4fc9e94e30480800000000000000
+      internalID: -8934045865883683544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 502
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c298b9b67c305cb50800000000000000
+      internalID: 6612695782902171948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 489
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86c8441e936f1c0800000000000000
+      internalID: -4470321940438161205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf3cf46e8ef733d0800000000000000
+      internalID: -3226830720454606909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eaaf38edc76e240800000000000000
+      internalID: 4820677746285522455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad97c1bc89344780800000000000000
+      internalID: -8699765303732101721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5ad6f33e6bfdc60800000000000000
+      internalID: 7845190163040675289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c031b968166546c0800000000000000
+      internalID: -4159806425768316727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706d4f140b5055430800000000000000
+      internalID: 3770926517571606023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_17
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dfd0952d0769770800000000000000
+      internalID: 8617198985759554840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34649621b96d5c860800000000000000
+      internalID: 7549676311873668675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d5412c93c9a2600800000000000000
+      internalID: 444339285132598615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_20
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 502
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e4602a01878c920800000000000000
+      internalID: 3010788363730308761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 489
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c75eb0df9961100800000000000000
+      internalID: 78419355630926894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_22
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003457242a3a2e250800000000000000
+      internalID: 5972515973141709568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_23
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 489
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53bebee534afe950800000000000000
+      internalID: 6480578940355130203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_24
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 459
+        width: 198
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e54c1c2f91e1220800000000000000
+      internalID: 2458430977014521434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 459
+        width: 197
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762b9e388d092300800000000000000
+      internalID: 227728134975989362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 425
+        width: 198
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e5557480cc5ce10800000000000000
+      internalID: 2217402727478419077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 426
+        width: 197
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e460d798d19266450800000000000000
+      internalID: 6081593553647896142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 392
+        width: 198
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694753493962ba5c0800000000000000
+      internalID: -4203223411931646826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 393
+        width: 197
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87332d2c3177599b0800000000000000
+      internalID: -5074018478406356104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 359
+        width: 198
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a95f308ec460010800000000000000
+      internalID: 1154694913849662005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 359
+        width: 197
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a41d737f03b17720800000000000000
+      internalID: 2842249718790952105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 326
+        width: 197
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebc7e23561bda0e0800000000000000
+      internalID: -2256952790038885403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 255
+        width: 198
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a234aa645fc9020800000000000000
+      internalID: 2350022789433600563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 158
+        width: 198
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6039ab3675d91f80800000000000000
+      internalID: -8135236548084289427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_35
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7177586442bc160800000000000000
+      internalID: 7046765927256758178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brillitos_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 32
+        width: 250
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c89489720abba0800000000000000
+      internalID: -6072538426616790638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brillitos_0: -2727294136016595061
+      brillitos_1: 8657120180846990095
+      brillitos_10: -4470321940438161205
+      brillitos_11: -3226830720454606909
+      brillitos_12: 4820677746285522455
+      brillitos_13: -8699765303732101721
+      brillitos_14: 7845190163040675289
+      brillitos_15: -4159806425768316727
+      brillitos_16: 3770926517571606023
+      brillitos_17: 8617198985759554840
+      brillitos_18: 7549676311873668675
+      brillitos_19: 444339285132598615
+      brillitos_2: 332506190609867972
+      brillitos_20: 3010788363730308761
+      brillitos_21: 78419355630926894
+      brillitos_22: 5972515973141709568
+      brillitos_23: 6480578940355130203
+      brillitos_24: 2458430977014521434
+      brillitos_25: 227728134975989362
+      brillitos_26: 2217402727478419077
+      brillitos_27: 6081593553647896142
+      brillitos_28: -4203223411931646826
+      brillitos_29: -5074018478406356104
+      brillitos_3: -7110074568060683352
+      brillitos_30: 1154694913849662005
+      brillitos_31: 2842249718790952105
+      brillitos_32: -2256952790038885403
+      brillitos_33: 2350022789433600563
+      brillitos_34: -8135236548084289427
+      brillitos_35: 7046765927256758178
+      brillitos_36: -6072538426616790638
+      brillitos_4: -6516244246294123731
+      brillitos_5: -7792433103112698149
+      brillitos_6: 2788141947680256879
+      brillitos_7: -1239402169710094148
+      brillitos_8: -8934045865883683544
+      brillitos_9: 6612695782902171948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
