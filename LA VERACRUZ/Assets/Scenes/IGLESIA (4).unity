@@ -4144,7 +4144,13 @@ MonoBehaviour:
   speed: 5
   spriteRenderer: {fileID: 2084293966}
   animator: {fileID: 2084293963}
-  jumpForce: 7
+  jumpForce: 6
+  rb2d: {fileID: 2084293969}
+--- !u!50 &2084293969 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 4589710100852926307, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 1706274197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

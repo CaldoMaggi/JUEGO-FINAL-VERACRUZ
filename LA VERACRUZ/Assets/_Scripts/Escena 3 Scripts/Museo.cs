@@ -3,12 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class Museo : MonoBehaviour
 {
-    public void Update()
+    bool dentro;
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (col.CompareTag("Player")) dentro = true;
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player")) dentro = false;
+    }
+
+    void Update()
+    {
+        if (dentro && Input.GetKeyDown(KeyCode.F))
         {
-            //si presiona E carga la escena 4
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene("M_ANTIOQUIA(5)"); // cambia el nombre de la escena
         }
     }
 }

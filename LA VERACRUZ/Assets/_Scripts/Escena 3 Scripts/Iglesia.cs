@@ -3,12 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class Iglesia : MonoBehaviour
 {
-    public void Update()
+    bool dentro;
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (col.CompareTag("Player")) dentro = true;
+    }
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player")) dentro = false;
+    }
+    void Update()
+    {
+        if (dentro && Input.GetKeyDown(KeyCode.E))
         {
-            //si presiona E carga la escena 4
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("IGLESIA (4)"); // cambia el nombre de la escena
         }
     }
 }

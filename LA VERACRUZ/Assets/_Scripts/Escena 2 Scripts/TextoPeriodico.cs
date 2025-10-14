@@ -1,26 +1,33 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TextoPeriodico : MonoBehaviour
 {
     [SerializeField] private GameObject canvas;
-    private bool isVisible = false;  // Estado inicial: oculto
-
-    void Start()
+    [SerializeField] private bool dentro;
+    void OnTriggerEnter2D(Collider2D col)
     {
-        // Asegúrate de que empiece oculto (opcional)
-        canvas.SetActive(isVisible);
+        if (col.CompareTag("Player")) dentro = true;
     }
-    void Update()
-    {
-        // Detecta si se presionó la tecla E en este frame
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F))
-        {
-            // Cambia el estado
-            isVisible = !isVisible;
 
-            // Activa o desactiva el Canvas
-            canvas.SetActive(isVisible);
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player")) dentro = true;
+    }
+    public void Update()
+    {
+        if (dentro && (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F)))
+        {
+            if (canvas.activeSelf) //desactivar
+            {
+                canvas.SetActive(false);
+            }
+            else // activar
+            {
+                canvas.SetActive(true);
+            }
         }
     }
 }
+  

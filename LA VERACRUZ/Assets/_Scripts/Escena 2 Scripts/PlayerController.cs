@@ -7,18 +7,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
-    [SerializeField] private float jumpForce = 7f;
-
-    private Rigidbody2D rb;
+    [SerializeField] private float jumpForce = 6f;
+    [SerializeField] private Rigidbody2D rb2d;
     private bool isGrounded = true;
     private bool canJump = false; // 🔹 Solo se activa en ciertas escenas
-
     private Vector2 movement;
     private float xPosition;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody2D>();
 
         // 🔹 Detectar si la escena actual permite salto
         string currentScene = SceneManager.GetActiveScene().name;
@@ -35,9 +33,7 @@ public class PlayerController : MonoBehaviour
             canJump = false; // En el mundo normal no salta
         }
     }
-
-
-        void Update()
+    void Update()
     {
         HandleMovement();
         FlipCharacter();
@@ -45,6 +41,7 @@ public class PlayerController : MonoBehaviour
     }
     private void HandleMovement()
     {
+        //movimiento del jugador
         float input = Input.GetAxis("Horizontal");
         movement.x = input * speed * Time.deltaTime;
         transform.Translate(movement);
@@ -57,14 +54,20 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isRunning", false);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Piso"))
+        {
+            isGrounded = true;
+        }
+    }
 
     void Jump()
     {
         if (canJump && isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            isGrounded = false;
-            animator.SetTrigger("Jump");
+            rb2d.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); //salto
+            isGrounded = false; // Evita saltos dobles
         }
     }
 
@@ -82,13 +85,5 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = true;
         }
         xPosition = transform.position.x;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Piso"))
-        {
-            isGrounded = true;
-        }
     }
 }
