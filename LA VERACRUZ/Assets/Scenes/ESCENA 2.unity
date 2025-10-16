@@ -664,7 +664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2410488916947572892, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4767271984946670411, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_Pivot.x
@@ -2689,6 +2689,7 @@ MonoBehaviour:
   transition: {fileID: 124221762}
   transitionTime: 1
   Canvas: {fileID: 880728894}
+  _UIManager: {fileID: 0}
 --- !u!4 &1089577952
 Transform:
   m_ObjectHideFlags: 0
@@ -4516,6 +4517,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980616215}
   m_CullTransparentMesh: 1
+--- !u!1 &1987970694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987970696}
+  - component: {fileID: 1987970695}
+  m_Layer: 0
+  m_Name: ==UIManager==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1987970695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987970694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7364ede9ca2fcc04d9ada04c4240046e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 880728894}
+  canvas1: {fileID: 0}
+  canvas2: {fileID: 0}
+  canvas3: {fileID: 0}
+--- !u!4 &1987970696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987970694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.286263, y: -2.6886442, z: -8.361779}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2008121623
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,6 +5024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 880728894}
   dentro: 0
+  _UIManager: {fileID: 1987970695}
 --- !u!95 &2076035775
 Animator:
   serializedVersion: 7
@@ -5256,3 +5306,4 @@ SceneRoots:
   - {fileID: 2141697126}
   - {fileID: 880728898}
   - {fileID: 2076035773}
+  - {fileID: 1987970696}

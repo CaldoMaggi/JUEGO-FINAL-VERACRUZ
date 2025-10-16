@@ -1,8 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class TextoPeriodico : MonoBehaviour
+public class LoreNoche1 : MonoBehaviour
 {
     [SerializeField] private GameObject canvas;
     [SerializeField] private bool dentro;
@@ -22,13 +20,12 @@ public class TextoPeriodico : MonoBehaviour
         {
             if (canvas.activeSelf) //desactivar
             {
-                _UIManager.EstadoDeJuego("Periodico1");
+                _UIManager.EstadoDeJuego("Periodico2");
             }
             else // activar
             {
-                _UIManager.EstadoDeJuego("Periodico1");
+                _UIManager.EstadoDeJuego("Periodico2");
             }
         }
     }
 }
-  
