@@ -28,6 +28,10 @@ public class PlayerController : MonoBehaviour
         {
             canJump = true;
         }
+        else if (currentScene == "P_DE LA CULTURA")
+        {
+            canJump = true;
+        }
         else
         {
             canJump = false; // En el mundo normal no salta
