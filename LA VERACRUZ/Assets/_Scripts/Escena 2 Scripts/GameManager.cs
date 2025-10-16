@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
     [SerializeField] private GameObject Canvas;
+    [SerializeField] private UIManager _UIManager;
     public void CargarEscena()
     {
 
