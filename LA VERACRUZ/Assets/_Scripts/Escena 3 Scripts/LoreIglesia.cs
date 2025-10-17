@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LoreNoche1 : MonoBehaviour
+public class LoreIglesia : MonoBehaviour
 {
-    [SerializeField] private GameObject canvas3;
+    [SerializeField] private GameObject canvasI;
     [SerializeField] private bool dentro;
     [SerializeField] private UIManager _UIManager;
     void OnTriggerEnter2D(Collider2D col)
@@ -19,13 +19,13 @@ public class LoreNoche1 : MonoBehaviour
     {
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
-            if (canvas3.activeSelf) //desactivar
+            if (canvasI.activeSelf) //desactivar
             {
-                _UIManager.EstadoDeJuego("PeriodicoMuseo");
+                _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
             else // activar
             {
-                _UIManager.EstadoDeJuego("PeriodicoMuseo");
+                _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
         }
     }

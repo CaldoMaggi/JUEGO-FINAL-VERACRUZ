@@ -20,33 +20,60 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
-    [SerializeField] private GameObject boton;
-    [SerializeField] private GameObject lore;
+    [SerializeField] private GameObject botonM;
+    [SerializeField] private GameObject loreM;
+    [SerializeField] private GameObject botonI;
+    [SerializeField] private GameObject loreI;
     [SerializeField] private UIManager _UIManager;
     [SerializeField] bool museoGanar;
     private int puntosMuseo;//los objetos recogidos para q le salga el boton de interactuar en el museo
+    private int puntosIglesia;//los objetos recogidos para q le salga el boton de interactuar en la iglesia
 
-    public void PuntosMuseo(int puntos)
+    public void PuntosIglesia(int puntosI)
     {
-        puntosMuseo += puntos;
+        puntosIglesia += puntosI;
+        if (puntosIglesia == 5)
+        {
+            if (botonI.activeSelf) //desactivar
+            {
+                botonI.SetActive(false);
+            }
+            else // activar
+            {
+                botonI.SetActive(true);
+            }
+
+            if (loreI.activeSelf) //desactivar
+            {
+                loreI.SetActive(false);
+            }
+            else // activar
+            {
+                loreI.SetActive(true);
+            }
+        }
+    }
+    public void PuntosMuseo(int puntosM)
+    {
+        puntosMuseo += puntosM;
         if (puntosMuseo == 4)
         {
-            if (boton.activeSelf) //desactivar
+            if (botonM.activeSelf) //desactivar
             {
-                boton.SetActive(false);
+                botonM.SetActive(false);
             }
             else // activar
             {
-                boton.SetActive(true);
+                botonM.SetActive(true);
             }
 
-            if (lore.activeSelf) //desactivar
+            if (loreM.activeSelf) //desactivar
             {
-                lore.SetActive(false);
+                loreM.SetActive(false);
             }
             else // activar
             {
-                lore.SetActive(true);
+                loreM.SetActive(true);
             }
         }
     }

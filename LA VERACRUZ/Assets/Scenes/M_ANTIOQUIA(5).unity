@@ -2938,7 +2938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1047772952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4122,7 +4122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6211297593087661012, guid: 85492da6fe3a23946954e288390515d4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6709893442524492759, guid: 85492da6fe3a23946954e288390515d4, type: 3}
       propertyPath: m_SortingOrder
@@ -5744,8 +5744,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 106654387}
   transitionTime: 1
-  boton: {fileID: 1047772951}
-  lore: {fileID: 1701720069}
+  botonM: {fileID: 0}
+  loreM: {fileID: 0}
+  botonI: {fileID: 0}
+  loreI: {fileID: 0}
   _UIManager: {fileID: 1162485548}
   museoGanar: 0
 --- !u!4 &1907861891

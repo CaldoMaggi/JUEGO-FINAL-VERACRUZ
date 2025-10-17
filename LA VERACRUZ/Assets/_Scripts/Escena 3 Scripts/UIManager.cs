@@ -36,6 +36,16 @@ public class UIManager : MonoBehaviour
                     canvasMuseo.SetActive(true);
                 }
                 break;
+            case "PeriodicoIglesia":
+                if (canvasIglesia.activeSelf) //desactivar
+                {
+                    canvasIglesia.SetActive(false);
+                }
+                else // activar
+                {
+                    canvasIglesia.SetActive(true);
+                }
+                break;
 
             case "Salir":
                 Application.Quit();

@@ -12,9 +12,9 @@ public class FIinalMinijuego : MonoBehaviour
     {
         if (col.CompareTag("Player")) dentro = false;
     }
-    void Update()
+    public void Update()
     {
-        if (dentro && Input.GetKeyDown(KeyCode.E))
+        if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
             SceneManager.LoadScene("ESCENA 3"); // cambia el nombre de la escena
         }

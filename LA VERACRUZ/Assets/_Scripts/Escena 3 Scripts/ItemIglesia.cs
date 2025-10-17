@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class ItemsManager : MonoBehaviour
+public class ItemIglesia : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
-    private int puntosM;
+    private int puntosI;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            puntosM++;
-            gameManager.PuntosMuseo(puntosM);
+            puntosI++;
+            gameManager.PuntosIglesia(puntosI);
             Destroy(this.gameObject);
         }
     }
