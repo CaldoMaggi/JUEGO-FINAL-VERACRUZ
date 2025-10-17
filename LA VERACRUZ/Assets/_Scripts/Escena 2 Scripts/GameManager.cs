@@ -6,8 +6,26 @@ public class GameManager : MonoBehaviour
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
     [SerializeField] private GameObject boton;
+    [SerializeField] private GameObject candadoMuseo; //el sprite del candado
     [SerializeField] private UIManager _UIManager;
-    private int puntosMuseo;
+    [SerializeField] bool museoGanar;
+    private int puntosMuseo;//los objetos recogidos para q le salga el boton de interactuar en el museo
+    public object GameProgress { get; private set; }//
+    public void GanarMuseo(bool estado)
+    {
+        museoGanar = estado;
+        print("Llamando a GanarMuseo con estado: " + estado);
+
+        if (museoGanar == true)
+        {
+            if (candadoMuseo != null)
+            {
+                Destroy(candadoMuseo);
+            }
+            print("Has ganado el minijuego del museo");
+            Destroy(candadoMuseo);
+        }
+    }
 
     public void PuntosMuseo(int puntos)
     {

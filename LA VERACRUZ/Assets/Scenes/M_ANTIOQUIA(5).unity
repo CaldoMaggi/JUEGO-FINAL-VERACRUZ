@@ -449,6 +449,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3978582873612513449, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5073290509603968661, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
       propertyPath: rb2d
       value: 
@@ -1425,6 +1429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e22ff6fa17a7bb40ba79903bc193a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1907861890}
 --- !u!61 &577951608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2801,7 +2806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1047772952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4648,7 +4653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2410488916947572892, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4767271984946670411, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_Pivot.x
@@ -5049,7 +5054,9 @@ MonoBehaviour:
   transition: {fileID: 106654387}
   transitionTime: 1
   boton: {fileID: 1047772951}
+  candadoMuseo: {fileID: 0}
   _UIManager: {fileID: 1162485548}
+  museoGanar: 0
 --- !u!4 &1907861891
 Transform:
   m_ObjectHideFlags: 0
