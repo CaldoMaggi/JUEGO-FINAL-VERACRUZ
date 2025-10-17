@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField]private GameObject canvas;
-    [SerializeField] private GameObject canvas1;
-    [SerializeField] private GameObject canvas2;
-    [SerializeField] private GameObject canvas3;
+    [SerializeField] private GameObject canvas;
+    [SerializeField] private GameObject canvasMuseo;
+    [SerializeField] private GameObject canvasIglesia;
+    [SerializeField] private GameObject canvasPalacio;
     public void EstadoDeJuego(string estado)
     {
         switch (estado)
@@ -26,36 +26,14 @@ public class UIManager : MonoBehaviour
                 }
                 break;
 
-            case "Periodico2":
-                if (canvas1.activeSelf) //desactivar
+            case "PeriodicoMuseo":
+                if (canvasMuseo.activeSelf) //desactivar
                 {
-                    canvas1.SetActive(false);
+                    canvasMuseo.SetActive(false);
                 }
                 else // activar
                 {
-                    canvas1.SetActive(true);
-                }
-                break;
-
-            case "Periodico3":
-                if (canvas2.activeSelf) //desactivar
-                {
-                    canvas2.SetActive(false);
-                }
-                else // activar
-                {
-                    canvas2.SetActive(true);
-                }
-                break;
-
-            case "Periodico4":
-                if (canvas3.activeSelf) //desactivar
-                {
-                    canvas3.SetActive(false);
-                }
-                else // activar
-                {
-                    canvas3.SetActive(true);
+                    canvasMuseo.SetActive(true);
                 }
                 break;
 

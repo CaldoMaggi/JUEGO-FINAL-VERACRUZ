@@ -1,9 +1,8 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LoreNoche1 : MonoBehaviour
 {
-    [SerializeField] private GameObject canvas1;
-    [SerializeField] private GameObject canvas2;
     [SerializeField] private GameObject canvas3;
     [SerializeField] private bool dentro;
     [SerializeField] private UIManager _UIManager;
@@ -16,17 +15,17 @@ public class LoreNoche1 : MonoBehaviour
     {
         if (col.CompareTag("Player")) dentro = true;
     }
-    public void LoreMuseo()
+    public void Update()
     {
-        if (dentro && (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F)))
+        if (dentro && Input.GetKeyDown(KeyCode.F))
         {
             if (canvas3.activeSelf) //desactivar
             {
-                _UIManager.EstadoDeJuego("Periodico4");
+                _UIManager.EstadoDeJuego("PeriodicoMuseo");
             }
             else // activar
             {
-                _UIManager.EstadoDeJuego("Periodico4");
+                _UIManager.EstadoDeJuego("PeriodicoMuseo");
             }
         }
     }

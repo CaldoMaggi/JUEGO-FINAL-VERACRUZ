@@ -529,7 +529,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 107783154}
   transitionTime: 1
-  Canvas: {fileID: 0}
+  boton: {fileID: 0}
+  candadoMuseo: {fileID: 0}
+  _UIManager: {fileID: 0}
+  museoGanar: 0
 --- !u!4 &522253057
 Transform:
   m_ObjectHideFlags: 0
@@ -542,7 +545,8 @@ Transform:
   m_LocalPosition: {x: -1.2486722, y: -1.8361824, z: -0.057806894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5932264521249247644}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &574642751
@@ -1640,7 +1644,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 522253057}
     m_Modifications:
     - target: {fileID: 365158904950018000, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_SortingOrder
@@ -1739,6 +1743,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
+--- !u!224 &5932264521249247644 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4767271984946670411, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
+  m_PrefabInstance: {fileID: 5932264521249247643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1749,4 +1758,3 @@ SceneRoots:
   - {fileID: 240616029}
   - {fileID: 956639740}
   - {fileID: 522253057}
-  - {fileID: 5932264521249247643}

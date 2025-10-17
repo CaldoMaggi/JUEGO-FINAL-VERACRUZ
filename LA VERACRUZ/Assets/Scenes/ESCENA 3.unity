@@ -4255,7 +4255,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 222950316}
   transitionTime: 1
-  Canvas: {fileID: 0}
+  boton: {fileID: 0}
+  candadoMuseo: {fileID: 0}
+  _UIManager: {fileID: 0}
+  museoGanar: 0
 --- !u!4 &1510250351
 Transform:
   m_ObjectHideFlags: 0
@@ -4268,7 +4271,8 @@ Transform:
   m_LocalPosition: {x: -206.20764, y: 54.728973, z: -10.491321}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1707789625}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510786633
@@ -5106,7 +5110,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1510250351}
     m_Modifications:
     - target: {fileID: 2410488916947572892, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_Name
@@ -5114,7 +5118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2410488916947572892, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4767271984946670411, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
       propertyPath: m_Pivot.x
@@ -5201,6 +5205,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
+--- !u!224 &1707789625 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4767271984946670411, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
+  m_PrefabInstance: {fileID: 1707789624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1715677346
 GameObject:
   m_ObjectHideFlags: 0
@@ -6562,7 +6571,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1722803423922493705}
   - {fileID: 355742555}
-  - {fileID: 1707789624}
   - {fileID: 1510250351}
   - {fileID: 1491348138}
   - {fileID: 350394797}

@@ -3,29 +3,28 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+        }
+    }
+
     [SerializeField]private Animator transition;
     [SerializeField] private float transitionTime = 1f;
     [SerializeField] private GameObject boton;
-    [SerializeField] private GameObject candadoMuseo; //el sprite del candado
+    [SerializeField] private GameObject lore;
     [SerializeField] private UIManager _UIManager;
     [SerializeField] bool museoGanar;
     private int puntosMuseo;//los objetos recogidos para q le salga el boton de interactuar en el museo
-    public object GameProgress { get; private set; }//
-    public void GanarMuseo(bool estado)
-    {
-        museoGanar = estado;
-        print("Llamando a GanarMuseo con estado: " + estado);
-
-        if (museoGanar == true)
-        {
-            if (candadoMuseo != null)
-            {
-                Destroy(candadoMuseo);
-            }
-            print("Has ganado el minijuego del museo");
-            Destroy(candadoMuseo);
-        }
-    }
 
     public void PuntosMuseo(int puntos)
     {
@@ -39,6 +38,15 @@ public class GameManager : MonoBehaviour
             else // activar
             {
                 boton.SetActive(true);
+            }
+
+            if (lore.activeSelf) //desactivar
+            {
+                lore.SetActive(false);
+            }
+            else // activar
+            {
+                lore.SetActive(true);
             }
         }
     }
