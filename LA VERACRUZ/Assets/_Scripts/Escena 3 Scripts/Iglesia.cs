@@ -14,7 +14,7 @@ public class Iglesia : MonoBehaviour
     }
     void Update()
     {
-        if (dentro && Input.GetKeyDown(KeyCode.E))
+        if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
             SceneManager.LoadScene("IGLESIA (4)"); // cambia el nombre de la escena
         }

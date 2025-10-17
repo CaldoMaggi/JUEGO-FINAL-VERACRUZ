@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Museo : MonoBehaviour
+public class Palacio : MonoBehaviour
 {
     bool dentro;
     void OnTriggerEnter2D(Collider2D col)
@@ -18,7 +18,7 @@ public class Museo : MonoBehaviour
     {
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
-            SceneManager.LoadScene("M_ANTIOQUIA(5)"); // cambia el nombre de la escena
+            SceneManager.LoadScene("P_DE LA CULTURA"); // cambia el nombre de la escena
         }
     }
 }
