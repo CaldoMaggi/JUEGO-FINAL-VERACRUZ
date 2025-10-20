@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextoPeriodico : MonoBehaviour
+public class LoreIglesia : MonoBehaviour
 {
-    [SerializeField] private GameObject canvas;
+    [SerializeField] private GameObject canvasI;
     [SerializeField] private bool dentro;
     [SerializeField] private UIManager _UIManager;
     void OnTriggerEnter2D(Collider2D col)
@@ -13,21 +13,20 @@ public class TextoPeriodico : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.CompareTag("Player")) dentro = true;
+        if (col.CompareTag("Player")) dentro = false;
     }
     public void Update()
     {
-        if (dentro && (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F)))
+        if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
-            if (canvas.activeSelf) //desactivar
+            if (canvasI.activeSelf) //desactivar
             {
-                _UIManager.EstadoDeJuego("Periodico1");
+                _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
             else // activar
             {
-                _UIManager.EstadoDeJuego("Periodico1");
+                _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
         }
     }
 }
-  
