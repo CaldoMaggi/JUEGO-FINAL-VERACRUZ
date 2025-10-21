@@ -4644,6 +4644,10 @@ MonoBehaviour:
   loreI: {fileID: 2022273807}
   _UIManager: {fileID: 1815375622}
   museoGanar: 0
+  laberintoFallido: 0
+  escenaFinalMalo: FinalMalo
+  finalBuenoDesbloqueado: 0
+  escenaFinalBueno: FinalBueno
 --- !u!1 &1296984282
 GameObject:
   m_ObjectHideFlags: 0
@@ -6368,6 +6372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953227225}
+  - component: {fileID: 1953227226}
   m_Layer: 0
   m_Name: ==Items==
   m_TagString: Untagged
@@ -6395,6 +6400,18 @@ Transform:
   - {fileID: 627858921}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953227226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953227224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1956039192
 GameObject:
   m_ObjectHideFlags: 0

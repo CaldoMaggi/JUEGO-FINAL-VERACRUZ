@@ -18,7 +18,7 @@ public class Museo : MonoBehaviour
     {
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
-            SceneManager.LoadScene("M_ANTIOQUIA(5)"); // cambia el nombre de la escena
+            SceneManager.LoadScene("M_ANTIOQUIA(5)");
         }
     }
 }

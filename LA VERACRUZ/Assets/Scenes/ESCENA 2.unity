@@ -2688,6 +2688,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6886221186114977029, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
   m_PrefabInstance: {fileID: 482464177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &962988798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962988800}
+  - component: {fileID: 962988799}
+  m_Layer: 0
+  m_Name: ===ItemsManager===
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &962988799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962988798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &962988800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962988798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.095239, y: -2.3238113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046696737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,6 +3004,10 @@ MonoBehaviour:
   loreI: {fileID: 0}
   _UIManager: {fileID: 0}
   museoGanar: 0
+  laberintoFallido: 0
+  escenaFinalMalo: FinalMalo
+  finalBuenoDesbloqueado: 0
+  escenaFinalBueno: FinalBueno
 --- !u!4 &1089577952
 Transform:
   m_ObjectHideFlags: 0
@@ -5891,3 +5939,4 @@ SceneRoots:
   - {fileID: 2141697126}
   - {fileID: 880728898}
   - {fileID: 2076035773}
+  - {fileID: 962988800}

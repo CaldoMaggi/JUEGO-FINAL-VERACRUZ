@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class ItemsManager : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
+    private GameManager gameManager;
     private int puntosM;
+
+    private void Start()
+    {
+        
+        gameManager = GameManager.Instance;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        
+        if (collision.CompareTag("Player"))
         {
             puntosM++;
             gameManager.PuntosMuseo(puntosM);
-            Destroy(this.gameObject);
+
+           
+            if (gameManager.laberintoFallido)
+            {
+                gameManager.RegistrarFalloLaberinto();
+            }
+
+            Destroy(gameObject);
         }
     }
 }
