@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1907861892}
 --- !u!1 &118508952
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1001 &164563184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -664,6 +666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1907861892}
 --- !u!1 &272377099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,6 +2435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1907861892}
 --- !u!1 &840537629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,12 +3077,12 @@ GameObject:
   - component: {fileID: 1047772953}
   - component: {fileID: 1047772952}
   m_Layer: 5
-  m_Name: Boton
+  m_Name: Boton Salir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1047772952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4390,7 +4394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6709893442524492759, guid: 85492da6fe3a23946954e288390515d4, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5316,6 +5320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1907861892}
 --- !u!1 &1907861889
 GameObject:
   m_ObjectHideFlags: 0
@@ -5325,6 +5330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1907861891}
+  - component: {fileID: 1907861892}
   m_Layer: 0
   m_Name: ==GameManager==
   m_TagString: Untagged
@@ -5349,6 +5355,20 @@ Transform:
   - {fileID: 1788544094}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1907861892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907861889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49481565f3868546892d3068b105549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonM: {fileID: 1047772951}
+  loreM: {fileID: 1701720069}
 --- !u!1 &2028487847
 GameObject:
   m_ObjectHideFlags: 0

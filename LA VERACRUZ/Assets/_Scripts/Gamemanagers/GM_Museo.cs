@@ -9,7 +9,7 @@ public class GM_Museo : MonoBehaviour
     public void PuntosMuseo(int puntosM)
     {
         puntosMuseo += puntosM;
-        if (puntosMuseo == 5)
+        if (puntosMuseo == 4)
         {
             botonM.SetActive(!botonM.activeSelf);
             loreM.SetActive(!loreM.activeSelf);
