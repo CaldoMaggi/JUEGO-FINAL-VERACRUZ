@@ -554,11 +554,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &222950316 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4823102719278228058, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
-  m_PrefabInstance: {fileID: 1707789624}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &250911358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4512,7 +4507,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510250351}
-  - component: {fileID: 1510250350}
   m_Layer: 0
   m_Name: ==GameManager==
   m_TagString: Untagged
@@ -4520,30 +4514,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1510250350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510250349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecff99cdcb456242ab4d1c5a29ba619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 222950316}
-  transitionTime: 1
-  botonM: {fileID: 0}
-  loreM: {fileID: 0}
-  botonI: {fileID: 0}
-  loreI: {fileID: 0}
-  _UIManager: {fileID: 0}
-  museoGanar: 0
-  laberintoFallido: 0
-  escenaFinalMalo: FinalMalo
-  finalBuenoDesbloqueado: 0
-  escenaFinalBueno: FinalBueno
 --- !u!4 &1510250351
 Transform:
   m_ObjectHideFlags: 0
