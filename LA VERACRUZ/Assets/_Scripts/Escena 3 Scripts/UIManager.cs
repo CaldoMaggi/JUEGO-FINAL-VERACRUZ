@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject canvasMuseo;
     [SerializeField] private GameObject canvasIglesia;
     [SerializeField] private GameObject canvasPalacio;
+
     public void EstadoDeJuego(string estado)
     {
         switch (estado)
@@ -36,6 +37,7 @@ public class UIManager : MonoBehaviour
                     canvasMuseo.SetActive(true);
                 }
                 break;
+
             case "PeriodicoIglesia":
                 if (canvasIglesia.activeSelf) //desactivar
                 {
@@ -47,6 +49,16 @@ public class UIManager : MonoBehaviour
                 }
                 break;
 
+            case "PeriodicoPalacio":
+                if (canvasPalacio.activeSelf) //desactivar
+                {
+                    canvasPalacio.SetActive(false);
+                }
+                else // activar
+                {
+                    canvasPalacio.SetActive(true);
+                }
+                break;
             case "Salir":
                 Application.Quit();
                 break;
