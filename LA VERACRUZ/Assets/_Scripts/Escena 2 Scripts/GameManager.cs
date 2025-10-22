@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void PuntosPalacio(int puntosp)
+   /* public void PuntosPalacio(int puntosp)
     {
         puntosPalacio += puntosp;
         if (puntosPalacio == 5)
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
             botonP.SetActive(!botonP.activeSelf);
             loreP.SetActive(!loreP.activeSelf);
         }
-    }
+    }*/
 
     // ----------- CAMBIO DE ESCENAS ------------
     public void CargarEscena()

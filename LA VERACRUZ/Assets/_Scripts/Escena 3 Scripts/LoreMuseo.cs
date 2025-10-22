@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LoreNoche1 : MonoBehaviour
+public class LoreMuseo : MonoBehaviour
 {
     [SerializeField] private GameObject canvas3;
     [SerializeField] private bool dentro;

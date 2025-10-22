@@ -4372,8 +4372,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFRecuerdas cuando ibamos a misa los domingos? Comiamos empanadas y
-    tu padre te cargaba hasta la casa. Lo queriamos mucho, para \xE9l tu eras el
+  m_text: "\xBFRecuerdas cuando \xEDbamos a misa los domingos? Comiamos empanadas
+    y tu padre te cargaba hasta la casa. Lo queriamos mucho, para \xE9l tu eras el
     mundo entero\nEn serio lamento que la \xFAltima vez que nos vimos fue cuando
     velamos a tu padre..."
   m_isRightToLeft: 0
@@ -4409,8 +4409,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4440,7 +4440,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -243.40259, y: 0, z: -249.57263, w: 0}
+  m_margin: {x: -286.00082, y: 20.669006, z: -281.51556, w: -236.6744}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
