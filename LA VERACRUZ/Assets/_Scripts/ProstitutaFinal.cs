@@ -9,10 +9,6 @@ public class ProstitutaFinal : MonoBehaviour
     [SerializeField] private GameObject botonSi;
     [SerializeField] private GameObject botonNo;
 
-    [Header("Escenas finales (asegúrate que estén en Build Settings)")]
-    [SerializeField] private string escenaFinalBueno = "FINAL BUENO";
-    [SerializeField] private string escenaFinalMalo = "FINAL MALO";
-
     private bool jugadorCerca = false;
     private bool dialogoActivo = false;
 
@@ -35,48 +31,41 @@ public class ProstitutaFinal : MonoBehaviour
     void MostrarDialogo()
     {
         dialogoActivo = true;
-
         if (panelDialogo != null) panelDialogo.SetActive(true);
         if (textoDialogo != null) textoDialogo.SetActive(true);
         if (botonSi != null) botonSi.SetActive(true);
         if (botonNo != null) botonNo.SetActive(true);
-
-        Time.timeScale = 0f; // Pausa el juego
+        Time.timeScale = 0f;
     }
 
     void OcultarDialogo()
     {
         dialogoActivo = false;
-
         if (panelDialogo != null) panelDialogo.SetActive(false);
         if (textoDialogo != null) textoDialogo.SetActive(false);
         if (botonSi != null) botonSi.SetActive(false);
         if (botonNo != null) botonNo.SetActive(false);
-
-        Time.timeScale = 1f; // Reanuda el juego
+        Time.timeScale = 1f;
     }
 
     public void Salvarla()
     {
         Time.timeScale = 1f;
-        Debug.Log("Cargando FINAL BUENO...");
-        SceneManager.LoadScene("FINAL BUENO");
+        Debug.Log("Final bueno activado");
+        SceneManager.LoadScene(6); // Cambia este número por el índice real de FINAL BUENO
     }
 
     public void Ignorarla()
     {
         Time.timeScale = 1f;
-        Debug.Log("Cargando FINAL MALO...");
-        SceneManager.LoadScene("FINAL MALO");
+        Debug.Log("Final malo activado");
+        SceneManager.LoadScene(7); // Cambia este número por el índice real de FINAL MALO
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {
             jugadorCerca = true;
-            Debug.Log("Jugador cerca de la prostituta");
-        }
     }
 
     void OnTriggerExit2D(Collider2D other)
