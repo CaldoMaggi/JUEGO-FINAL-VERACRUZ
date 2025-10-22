@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
 
     private int puntosMuseo;
     private int puntosIglesia;
+    private int puntosPalacio;
 
     // ----------- PROGRESO DE LOS LUGARES ------------
     public void PuntosIglesia(int puntosI)
@@ -45,10 +46,20 @@ public class GameManager : MonoBehaviour
     public void PuntosMuseo(int puntosM)
     {
         puntosMuseo += puntosM;
-        if (puntosMuseo == 4)
+        if (puntosMuseo == 5)
         {
             botonM.SetActive(!botonM.activeSelf);
             loreM.SetActive(!loreM.activeSelf);
+        }
+    }
+
+    public void PuntosPalacio(int puntosp)
+    {
+        puntosPalacio += puntosp;
+        if (puntosPalacio == 5)
+        {
+            botonP.SetActive(!botonP.activeSelf);
+            loreP.SetActive(!loreP.activeSelf);
         }
     }
 
