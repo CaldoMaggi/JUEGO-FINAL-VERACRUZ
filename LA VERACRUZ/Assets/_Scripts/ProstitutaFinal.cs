@@ -1,18 +1,27 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ProstitutaFinal : MonoBehaviour
 {
-    [Header("Paneles de UI")]
-    public GameObject panelDialogo;     
-    public GameObject panelFinalBueno;  
-    public GameObject panelFinalMalo;  
+    [Header("Paneles y UI")]
+    [SerializeField] private GameObject panelDialogo;
+    [SerializeField] private GameObject textoDialogo;
+    [SerializeField] private GameObject botonSi;
+    [SerializeField] private GameObject botonNo;
 
-    private bool jugadorCerca = false;   
-    private bool dialogoActivo = false;  
+    private bool jugadorCerca = false;
+    private bool dialogoActivo = false;
+
+    void Start()
+    {
+        if (panelDialogo != null) panelDialogo.SetActive(false);
+        if (textoDialogo != null) textoDialogo.SetActive(false);
+        if (botonSi != null) botonSi.SetActive(false);
+        if (botonNo != null) botonNo.SetActive(false);
+    }
 
     void Update()
     {
-        
         if (jugadorCerca && Input.GetKeyDown(KeyCode.E) && !dialogoActivo)
         {
             MostrarDialogo();
@@ -21,57 +30,50 @@ public class ProstitutaFinal : MonoBehaviour
 
     void MostrarDialogo()
     {
-        if (panelDialogo != null)
-        {
-            panelDialogo.SetActive(true);
-            dialogoActivo = true;
-            Time.timeScale = 0f; 
-        }
+        dialogoActivo = true;
+        if (panelDialogo != null) panelDialogo.SetActive(true);
+        if (textoDialogo != null) textoDialogo.SetActive(true);
+        if (botonSi != null) botonSi.SetActive(true);
+        if (botonNo != null) botonNo.SetActive(true);
+        Time.timeScale = 0f;
     }
 
-    
+    void OcultarDialogo()
+    {
+        dialogoActivo = false;
+        if (panelDialogo != null) panelDialogo.SetActive(false);
+        if (textoDialogo != null) textoDialogo.SetActive(false);
+        if (botonSi != null) botonSi.SetActive(false);
+        if (botonNo != null) botonNo.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
     public void Salvarla()
     {
-        if (panelDialogo != null)
-            panelDialogo.SetActive(false);
-
-        if (panelFinalBueno != null)
-            panelFinalBueno.SetActive(true);
-
         Time.timeScale = 1f;
-        GameManager.Instance.RegistrarFinalBueno();
+        Debug.Log("Final bueno activado");
+        SceneManager.LoadScene(6); // Cambia este número por el índice real de FINAL BUENO
     }
 
-   
     public void Ignorarla()
     {
-        if (panelDialogo != null)
-            panelDialogo.SetActive(false);
-
-        if (panelFinalMalo != null)
-            panelFinalMalo.SetActive(true);
-
-        Time.timeScale = 1f; 
-        GameManager.Instance.RegistrarFalloLaberinto();
+        Time.timeScale = 1f;
+        Debug.Log("Final malo activado");
+        SceneManager.LoadScene(7); // Cambia este número por el índice real de FINAL MALO
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
             jugadorCerca = true;
-        void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.CompareTag("Player"))
-            {
-                jugadorCerca = true;
-                Debug.Log("Jugador cerca de la prostituta");
-            }
-        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
+        {
             jugadorCerca = false;
+            OcultarDialogo();
+        }
     }
 }

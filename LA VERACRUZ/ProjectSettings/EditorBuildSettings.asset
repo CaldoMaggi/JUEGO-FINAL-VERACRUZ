@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P_DE LA CULTURA.unity
     guid: 845d77cf17bf55e4cbd4df540860c128
+  - enabled: 1
+    path: Assets/Scenes/FINAL BUENO (6).unity
+    guid: c4e5365f8a3bdfd4695c601b2184bcd3
+  - enabled: 1
+    path: Assets/Scenes/FINAL MALO (7).unity
+    guid: f495b335e17aa434f8f5a75431598267
+  - enabled: 1
+    path: Assets/Scenes/ESCENA FINAL.unity
+    guid: 2110065df1ac625438453ce4ec836db9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
