@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
 
-        // 🔹 Detectar si la escena actual permite salto
+        // 🔹 Detectar si la escena actual permite salto HAY QUE CAMBIARLO A SWITCH
         string currentScene = SceneManager.GetActiveScene().name;
         if (currentScene == "IGLESIA (4)")
         {
