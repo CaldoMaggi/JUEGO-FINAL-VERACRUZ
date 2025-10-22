@@ -266,11 +266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3de6434cfa17842b0ce3c45342e68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &106654387 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4823102719278228058, guid: 7fd4bcb3f8e4a5c4c987910474b22e24, type: 3}
-  m_PrefabInstance: {fileID: 1788544093}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &118508952
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,7 +5325,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1907861891}
-  - component: {fileID: 1907861890}
   m_Layer: 0
   m_Name: ==GameManager==
   m_TagString: Untagged
@@ -5338,30 +5332,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1907861890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907861889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecff99cdcb456242ab4d1c5a29ba619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 106654387}
-  transitionTime: 1
-  botonM: {fileID: 1047772951}
-  loreM: {fileID: 1701720069}
-  botonI: {fileID: 1047772951}
-  loreI: {fileID: 1701720069}
-  _UIManager: {fileID: 1162485548}
-  museoGanar: 0
-  laberintoFallido: 0
-  escenaFinalMalo: FinalMalo
-  finalBuenoDesbloqueado: 0
-  escenaFinalBueno: FinalBueno
 --- !u!4 &1907861891
 Transform:
   m_ObjectHideFlags: 0

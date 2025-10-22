@@ -898,7 +898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bc4e7e754235b479f61778c074723f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1251571131}
+  gameManager: {fileID: 0}
 --- !u!1 &194955209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bc4e7e754235b479f61778c074723f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1251571131}
+  gameManager: {fileID: 0}
 --- !u!1 &256220293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,7 +2869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bc4e7e754235b479f61778c074723f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1251571131}
+  gameManager: {fileID: 0}
 --- !u!1 &644796210
 GameObject:
   m_ObjectHideFlags: 0
@@ -4600,7 +4600,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251571130}
-  - component: {fileID: 1251571131}
   m_Layer: 0
   m_Name: ==GameManager==
   m_TagString: Untagged
@@ -4624,30 +4623,6 @@ Transform:
   - {fileID: 1815375623}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1251571131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251571129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecff99cdcb456242ab4d1c5a29ba619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 0}
-  transitionTime: 1
-  botonM: {fileID: 0}
-  loreM: {fileID: 0}
-  botonI: {fileID: 47849095}
-  loreI: {fileID: 2022273807}
-  _UIManager: {fileID: 1815375622}
-  museoGanar: 0
-  laberintoFallido: 0
-  escenaFinalMalo: FinalMalo
-  finalBuenoDesbloqueado: 0
-  escenaFinalBueno: FinalBueno
 --- !u!1 &1296984282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,7 +4770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bc4e7e754235b479f61778c074723f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1251571131}
+  gameManager: {fileID: 0}
 --- !u!1 &1366891019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,7 +6778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bc4e7e754235b479f61778c074723f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1251571131}
+  gameManager: {fileID: 0}
 --- !u!1 &1991993946
 GameObject:
   m_ObjectHideFlags: 0

@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447983082}
-  - component: {fileID: 447983081}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -136,30 +135,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &447983081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447983080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecff99cdcb456242ab4d1c5a29ba619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 0}
-  transitionTime: 1
-  botonM: {fileID: 0}
-  loreM: {fileID: 0}
-  botonI: {fileID: 0}
-  loreI: {fileID: 0}
-  _UIManager: {fileID: 0}
-  museoGanar: 0
-  laberintoFallido: 0
-  escenaFinalMalo: FinalMalo
-  finalBuenoDesbloqueado: 0
-  escenaFinalBueno: FinalBueno
 --- !u!4 &447983082
 Transform:
   m_ObjectHideFlags: 0

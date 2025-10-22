@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ItemIglesia : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
+    [SerializeField] private GM_Iglesia gameManager;
     private int puntosI;
     private void OnTriggerEnter2D(Collider2D collision)
     {
