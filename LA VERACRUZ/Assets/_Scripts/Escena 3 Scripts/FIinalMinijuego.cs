@@ -6,6 +6,7 @@ public class FIinalMinijuego : MonoBehaviour
     bool dentro;
     void OnTriggerEnter2D(Collider2D col)
     {
+        print("Cambiando de escena");
         if (col.CompareTag("Player")) dentro = true;
     }
     void OnTriggerExit2D(Collider2D col)
@@ -16,6 +17,7 @@ public class FIinalMinijuego : MonoBehaviour
     {
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
+
             SceneManager.LoadScene("ESCENA 3"); // cambia el nombre de la escena
         }
     }
