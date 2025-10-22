@@ -517,8 +517,26 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6273345420222412956, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1039968278}
   m_SourcePrefab: {fileID: 100100000, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+--- !u!1 &164563185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6273345420222412956, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 164563184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &164563186 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8910120306246687837, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 164563184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &164563187 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3978582873612513449, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 164563184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &188555135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,6 +3082,23 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 4589710100852926307, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
   m_PrefabInstance: {fileID: 164563184}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1039968278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164563185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870aaaf15dc71b8419ade0ef162f1b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4.5
+  spriteRenderer: {fileID: 164563187}
+  animator: {fileID: 164563186}
+  jumpForce: 6
+  rb2d: {fileID: 1039968277}
 --- !u!1 &1047772951
 GameObject:
   m_ObjectHideFlags: 0
