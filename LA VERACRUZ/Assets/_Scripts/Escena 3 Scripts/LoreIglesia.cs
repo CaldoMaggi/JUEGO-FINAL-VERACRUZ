@@ -6,6 +6,7 @@ public class LoreIglesia : MonoBehaviour
     [SerializeField] private GameObject canvasI;
     [SerializeField] private bool dentro;
     [SerializeField] private UIManager _UIManager;
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player")) dentro = true;
@@ -19,6 +20,8 @@ public class LoreIglesia : MonoBehaviour
     {
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
+            print("ganaste iglesia");
+            GM_Final.Instance.CompletarMinijuego(1);
             if (canvasI.activeSelf) //desactivar
             {
                 _UIManager.EstadoDeJuego("PeriodicoIglesia");
