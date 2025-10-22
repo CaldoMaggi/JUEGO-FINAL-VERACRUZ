@@ -1621,7 +1621,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6886221186114977029, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2130486251}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6273345420222412956, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 955071459}
   m_SourcePrefab: {fileID: 100100000, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
 --- !u!50 &482464178 stripped
 Rigidbody2D:
@@ -2189,6 +2192,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 880728898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &764645307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6273345420222412956, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 482464177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &767654133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,6 +2703,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6886221186114977029, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
   m_PrefabInstance: {fileID: 482464177}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &955071456 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8910120306246687837, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 482464177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &955071458 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3978582873612513449, guid: f935d88e0a9d8d94f9013cabe43492e7, type: 3}
+  m_PrefabInstance: {fileID: 482464177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &955071459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764645307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870aaaf15dc71b8419ade0ef162f1b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  spriteRenderer: {fileID: 955071458}
+  animator: {fileID: 955071456}
+  jumpForce: 6
+  rb2d: {fileID: 482464178}
 --- !u!1 &1046696737
 GameObject:
   m_ObjectHideFlags: 0
