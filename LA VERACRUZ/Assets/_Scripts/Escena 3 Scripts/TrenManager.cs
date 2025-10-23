@@ -18,7 +18,7 @@ public class TrenManager : MonoBehaviour
 
         yield return new WaitForSeconds(6);
         tren.SetActive(false);
-        tren.transform.position = new Vector3(-35.7f , -6.8f, 0);
+        tren.transform.position = new Vector3(-41.2f , -6.8f, 0);
         yield return new WaitForSeconds(1);
 
        StartCoroutine(TrenLoop());
