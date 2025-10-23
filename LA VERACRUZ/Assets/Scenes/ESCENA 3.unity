@@ -4872,8 +4872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 1485388080}
   transitionTime: 1
-  minijuego1Completado: 1
-  minijuego2Completado: 1
+  minijuego1Completado: 0
+  minijuego2Completado: 0
   minijuego3Completado: 0
   tiempoMaximo: 1200
   tiempoTranscurrido: 0
