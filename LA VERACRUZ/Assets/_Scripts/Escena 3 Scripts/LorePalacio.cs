@@ -17,11 +17,12 @@ public class LorePalacio : MonoBehaviour
     public void Update()
     {
         print("ganaste iglesia");
-        GM_Final.Instance.CompletarMinijuego(2);
+
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
             if (canvas3.activeSelf) //desactivar
             {
+                GM_Final.Instance.CompletarMinijuego(2);
                 _UIManager.EstadoDeJuego("PeriodicoPalacio");
             }
             else // activar

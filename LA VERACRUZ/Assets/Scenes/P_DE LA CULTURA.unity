@@ -2734,9 +2734,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Recuerdo que te gustaban los bombones de chocolate del palacio, no teniamos
-    mucho dinero, asi que solo te compraba uno.\nEra ru regalopor no perder ninguna
+    mucho dinero, asi que solo te compraba uno.\nEra tu regalo por no perder ninguna
     materia en el colegio. Quisiera haberme esforzado m\xE1s para comprarte todos
-    los bombones que querias."
+    los chocolates del mundo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
