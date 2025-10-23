@@ -20,9 +20,10 @@ public class LoreMuseo : MonoBehaviour
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
             print("ganaste museo");
-            GM_Final.Instance.CompletarMinijuego(3);
+
             if (canvas3.activeSelf) //desactivar
             {
+                GM_Final.Instance.CompletarMinijuego(3);
                 _UIManager.EstadoDeJuego("PeriodicoMuseo");
             }
             else // activar

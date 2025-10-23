@@ -21,13 +21,15 @@ public class LoreIglesia : MonoBehaviour
         if (dentro && (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.E)))
         {
             print("ganaste iglesia");
-            GM_Final.Instance.CompletarMinijuego(1);
+
             if (canvasI.activeSelf) //desactivar
             {
+                GM_Final.Instance.CompletarMinijuego(1);
                 _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
             else // activar
             {
+
                 _UIManager.EstadoDeJuego("PeriodicoIglesia");
             }
         }
