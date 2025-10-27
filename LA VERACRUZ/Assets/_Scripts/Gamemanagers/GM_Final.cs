@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
+using UnityEngine.UI;
 
 public class GM_Final : MonoBehaviour
 {
@@ -10,9 +10,12 @@ public class GM_Final : MonoBehaviour
     [SerializeField] private bool minijuego1Completado = false;
     [SerializeField] private bool minijuego2Completado = false;
     [SerializeField] private bool minijuego3Completado = false;
-    [SerializeField] private float tiempoMaximo = 1200f; // 20 minutos (en segundos)
+    [SerializeField] private float tiempoMaximo = 300f; // 5 minutos (en segundos)
     [SerializeField] private float tiempoTranscurrido = 0f;
     [SerializeField] private bool juegoTerminado = false;
+    [SerializeField] private Image candado1;
+    [SerializeField] private Image candado2;
+    [SerializeField] private Image candado3;
 
     void Update()
     {
@@ -48,12 +51,15 @@ public class GM_Final : MonoBehaviour
         {
             case 1:
                 minijuego1Completado = true;
+                candado1.enabled = false;
                 break;
             case 2:
                 minijuego2Completado = true;
+                candado2.enabled = false;
                 break;
             case 3:
                 minijuego3Completado = true;
+                candado3.enabled = false;
                 break;
         }
 
