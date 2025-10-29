@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 20fdc8da44c1aa04db9c98b67520b65d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8744714024888644320
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_0"
+  - first:
+      213: -8156476865205399778
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_1"
+  - first:
+      213: 2212686845803251678
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_2"
+  - first:
+      213: 7150762569049613247
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_3"
+  - first:
+      213: -1064758144223919827
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_4"
+  - first:
+      213: 7804441783363255001
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_5"
+  - first:
+      213: 717296496525987660
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_6"
+  - first:
+      213: -5368374497156576861
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_7"
+  - first:
+      213: -2315837306279736342
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_8"
+  - first:
+      213: 2029890334637268600
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_9"
+  - first:
+      213: -3104526470948499861
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_10"
+  - first:
+      213: -8858700484773139884
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_11"
+  - first:
+      213: 2765441900157358838
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_12"
+  - first:
+      213: 6218791623212082242
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_13"
+  - first:
+      213: 4176994027843792356
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_14"
+  - first:
+      213: 6602445859290230570
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_15"
+  - first:
+      213: -1989531735188566483
+    second: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_0"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 804
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dc2240de884a680800000000000000
+      internalID: -8744714024888644320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_1"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 842
+        width: 369
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f8db6818f5ece80800000000000000
+      internalID: -8156476865205399778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_2"
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 825
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7484386fa05be10800000000000000
+      internalID: 2212686845803251678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_3"
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 816
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3ac519bac9c3360800000000000000
+      internalID: 7150762569049613247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_4"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 682
+        width: 92
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2144d1fb183931f0800000000000000
+      internalID: -1064758144223919827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_5"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 795
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da3597c372fe4c60800000000000000
+      internalID: 7804441783363255001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_6"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 773
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f401afc5954f900800000000000000
+      internalID: 717296496525987660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_7"
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 685
+        width: 107
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a947b376d3bf75b0800000000000000
+      internalID: -5368374497156576861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_8"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 505
+        width: 68
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb49916d3e7cdfd0800000000000000
+      internalID: -2315837306279736342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_9"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 436
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e9d09218e9b2c10800000000000000
+      internalID: 2029890334637268600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_10"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 225
+        width: 399
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e41578f918ae4d0800000000000000
+      internalID: -3104526470948499861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_11"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 419
+        width: 88
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a248138d29f0580800000000000000
+      internalID: -8858700484773139884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_12"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 397
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f25cd991c2d06620800000000000000
+      internalID: 2765441900157358838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_13"
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 371
+        width: 134
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2442bb168069d4650800000000000000
+      internalID: 6218791623212082242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_14"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 375
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edae8a00f9a7f930800000000000000
+      internalID: 4176994027843792356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_15"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 362
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f2ebb178990ab50800000000000000
+      internalID: 6602445859290230570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014black cloud shape pixel art_6253214_16"
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 345
+        width: 95
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e08b68d63c364e0800000000000000
+      internalID: -1989531735188566483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_0": -8744714024888644320
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_1": -8156476865205399778
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_10": -3104526470948499861
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_11": -8858700484773139884
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_12": 2765441900157358838
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_13": 6218791623212082242
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_14": 4176994027843792356
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_15": 6602445859290230570
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_16": -1989531735188566483
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_2": 2212686845803251678
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_3": 7150762569049613247
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_4": -1064758144223919827
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_5": 7804441783363255001
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_6": 717296496525987660
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_7": -5368374497156576861
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_8": -2315837306279736342
+      "\u2014Pngtree\u2014black cloud shape pixel art_6253214_9": 2029890334637268600
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
